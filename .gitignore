@@ -1,0 +1,22 @@
+# Dependencies (each service has its own)
+node_modules/
+
+# Environment variables (secrets: JWT secret, DB URLs)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build output (if you add any later)
+dist/
+build/
